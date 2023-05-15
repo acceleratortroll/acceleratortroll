@@ -16,6 +16,7 @@
 		2DED12552A126E6700ADEE62 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DED12542A126E6700ADEE62 /* InfoView.swift */; };
 		2DED12582A12738E00ADEE62 /* PoC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DED12572A12738E00ADEE62 /* PoC.m */; };
 		2DED125B2A12742300ADEE62 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DED125A2A12742300ADEE62 /* IOKit.framework */; };
+		2DED125D2A1281E800ADEE62 /* WritePanic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DED125C2A1281E800ADEE62 /* WritePanic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2DED12562A12738E00ADEE62 /* acceleratortroll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "acceleratortroll-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DED12572A12738E00ADEE62 /* PoC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoC.m; sourceTree = "<group>"; };
 		2DED125A2A12742300ADEE62 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2DED125C2A1281E800ADEE62 /* WritePanic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WritePanic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				2D108FBF2A126BDE00DF4541 /* Assets.xcassets */,
 				2D108FC12A126BDE00DF4541 /* Preview Content */,
 				2DED12562A12738E00ADEE62 /* acceleratortroll-Bridging-Header.h */,
+				2DED125C2A1281E800ADEE62 /* WritePanic.m */,
 			);
 			path = acceleratortroll;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DED12582A12738E00ADEE62 /* PoC.m in Sources */,
+				2DED125D2A1281E800ADEE62 /* WritePanic.m in Sources */,
 				2DED12512A126E5B00ADEE62 /* HomeView.swift in Sources */,
 				2DED12532A126E6200ADEE62 /* ArsenalView.swift in Sources */,
 				2D108FBE2A126BDD00DF4541 /* MainView.swift in Sources */,
@@ -297,7 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"acceleratortroll/Preview Content\"";
 				DEVELOPMENT_TEAM = 7D7S7LG33Z;
 				ENABLE_PREVIEWS = YES;
@@ -314,7 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.6;
+				MARKETING_VERSION = 0.1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.jancr.acceleratortroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -335,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"acceleratortroll/Preview Content\"";
 				DEVELOPMENT_TEAM = 7D7S7LG33Z;
 				ENABLE_PREVIEWS = YES;
@@ -352,7 +356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.6;
+				MARKETING_VERSION = 0.1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.jancr.acceleratortroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

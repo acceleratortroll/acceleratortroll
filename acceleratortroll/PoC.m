@@ -105,7 +105,7 @@ kern_return_t trigger_memmove_oob_copy(void) {
   kr = IOConnectCallStructMethod(conn, 1, dataBuf, 0x170, NULL, NULL);
   
   // Kernel should have paniced at this point
-  assert(false);
+  //assert(false);
   
   return kr;
 }

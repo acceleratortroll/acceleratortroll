@@ -16,7 +16,7 @@ struct ArsenalMain: View {
           Text("PoC Panic")
         }
       }.padding()
-      Button(action: {}) {
+      Button(action: { write_panic() }) {
         VStack {
           Image(systemName: "pencil.line")
           Text("Write Panic")

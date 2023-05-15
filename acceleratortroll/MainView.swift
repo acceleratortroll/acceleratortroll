@@ -16,7 +16,7 @@ struct MainView: View {
           .frame(width: 64.0, height: 64.0)
           .cornerRadius(25)
         Text("acceleratortroll")
-        Text("v0.1.6 (t6)")
+        Text("v0.1.7 (t7)")
       }
       Spacer()
       TabView {

@@ -7,6 +7,9 @@
 
 #include <stdio.h>
 @import Foundation;
+
 kern_return_t trigger_memmove_oob_copy(void);
-NSArray *readBins(NSString *sPath, NSError **error);
+
+int write_panic(void);
+
 #endif

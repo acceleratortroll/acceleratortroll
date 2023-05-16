@@ -6,10 +6,14 @@
 #define poc_h
 
 #include <stdio.h>
+#include "meorw/exploit.h"
 @import Foundation;
 
 kern_return_t trigger_memmove_oob_copy(void);
 
-int write_panic(void);
+int meorw_exploit(void);
+
+void respringBackboard(void);
+void respringFrontboard(void);
 
 #endif

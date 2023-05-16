@@ -10,16 +10,16 @@ import SwiftUI
 struct ArsenalMain: View {
   var body: some View {
     HStack {
-      Button(action: {}) {
+      Button(action: { trigger_memmove_oob_copy() }) {
         VStack {
           Image(systemName: "exclamationmark.circle")
-          Text("PoC Panic")
+          Text("Panic 0x00")
         }
       }.padding()
-      Button(action: { write_panic() }) {
+      Button(action: { meorw_exploit() }) {
         VStack {
-          Image(systemName: "pencil.line")
-          Text("Write Panic")
+          Image(systemName: "memorychip")
+          Text("MeoRW")
         }
       }.padding()
     }

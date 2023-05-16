@@ -11,12 +11,25 @@
 		2D108FBE2A126BDD00DF4541 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D108FBD2A126BDD00DF4541 /* MainView.swift */; };
 		2D108FC02A126BDE00DF4541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D108FBF2A126BDE00DF4541 /* Assets.xcassets */; };
 		2D108FC32A126BDE00DF4541 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D108FC22A126BDE00DF4541 /* Preview Assets.xcassets */; };
+		2D89747F2A13F19D00964CC3 /* mymodel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2D89747E2A13F19D00964CC3 /* mymodel.mlmodel */; };
 		2DED12512A126E5B00ADEE62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DED12502A126E5B00ADEE62 /* HomeView.swift */; };
 		2DED12532A126E6200ADEE62 /* ArsenalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DED12522A126E6200ADEE62 /* ArsenalView.swift */; };
 		2DED12552A126E6700ADEE62 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DED12542A126E6700ADEE62 /* InfoView.swift */; };
 		2DED12582A12738E00ADEE62 /* PoC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DED12572A12738E00ADEE62 /* PoC.m */; };
 		2DED125B2A12742300ADEE62 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DED125A2A12742300ADEE62 /* IOKit.framework */; };
-		2DED125D2A1281E800ADEE62 /* WritePanic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DED125C2A1281E800ADEE62 /* WritePanic.m */; };
+		2DEE36A32A13C57C000780E9 /* respring.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36A22A13C57C000780E9 /* respring.m */; };
+		2DEE36A72A13CBB2000780E9 /* RebootModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36A62A13CBB2000780E9 /* RebootModal.swift */; };
+		2DEE36AD2A13D366000780E9 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEE36AC2A13D366000780E9 /* IOSurface.framework */; };
+		2DEE36D32A13D5BB000780E9 /* model_tmp.hwx in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE36B02A13D5BB000780E9 /* model_tmp.hwx */; };
+		2DEE36D42A13D5BB000780E9 /* IOGPU.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36B12A13D5BB000780E9 /* IOGPU.c */; };
+		2DEE36D52A13D5BB000780E9 /* ANEDirectIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36B32A13D5BB000780E9 /* ANEDirectIn.c */; };
+		2DEE36D72A13D5BB000780E9 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36CD2A13D5BB000780E9 /* utils.c */; };
+		2DEE36D82A13D5BB000780E9 /* IOSurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36D02A13D5BB000780E9 /* IOSurface.c */; };
+		2DEE36D92A13D5BB000780E9 /* exploit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36D22A13D5BB000780E9 /* exploit.m */; };
+		2DEE36DB2A13D739000780E9 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE36DA2A13D739000780E9 /* util.m */; };
+		2DEE36DD2A13DA26000780E9 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEE36DC2A13DA26000780E9 /* CoreML.framework */; };
+		2DEE36DF2A13DB29000780E9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEE36DE2A13DB28000780E9 /* CoreFoundation.framework */; };
+		2DEE36E12A13DB3F000780E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEE36E02A13DB3F000780E9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +38,77 @@
 		2D108FBD2A126BDD00DF4541 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2D108FBF2A126BDE00DF4541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D108FC22A126BDE00DF4541 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D89747E2A13F19D00964CC3 /* mymodel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mymodel.mlmodel; sourceTree = "<group>"; };
 		2DED12502A126E5B00ADEE62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2DED12522A126E6200ADEE62 /* ArsenalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArsenalView.swift; sourceTree = "<group>"; };
 		2DED12542A126E6700ADEE62 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		2DED12562A12738E00ADEE62 /* acceleratortroll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "acceleratortroll-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DED12572A12738E00ADEE62 /* PoC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoC.m; sourceTree = "<group>"; };
 		2DED125A2A12742300ADEE62 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		2DED125C2A1281E800ADEE62 /* WritePanic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WritePanic.m; sourceTree = "<group>"; };
+		2DEE36A22A13C57C000780E9 /* respring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = respring.m; sourceTree = "<group>"; };
+		2DEE36A42A13C703000780E9 /* acceleratortroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = acceleratortroll.entitlements; sourceTree = "<group>"; };
+		2DEE36A52A13C729000780E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2DEE36A62A13CBB2000780E9 /* RebootModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebootModal.swift; sourceTree = "<group>"; };
+		2DEE36AC2A13D366000780E9 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		2DEE36B02A13D5BB000780E9 /* model_tmp.hwx */ = {isa = PBXFileReference; lastKnownFileType = file; path = model_tmp.hwx; sourceTree = "<group>"; };
+		2DEE36B12A13D5BB000780E9 /* IOGPU.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOGPU.c; sourceTree = "<group>"; };
+		2DEE36B22A13D5BB000780E9 /* exploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit.h; sourceTree = "<group>"; };
+		2DEE36B32A13D5BB000780E9 /* ANEDirectIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ANEDirectIn.c; sourceTree = "<group>"; };
+		2DEE36B52A13D5BB000780E9 /* _ANEIOSurfaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEIOSurfaceObject.h; sourceTree = "<group>"; };
+		2DEE36B62A13D5BB000780E9 /* _ANEDaemonConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEDaemonConnection.h; sourceTree = "<group>"; };
+		2DEE36B72A13D5BB000780E9 /* _ANEDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEDeviceInfo.h; sourceTree = "<group>"; };
+		2DEE36B82A13D5BB000780E9 /* _ANEProgramForEvaluation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEProgramForEvaluation.h; sourceTree = "<group>"; };
+		2DEE36B92A13D5BB000780E9 /* AppleNeuralEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleNeuralEngine.h; sourceTree = "<group>"; };
+		2DEE36BA2A13D5BB000780E9 /* _ANEDataReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEDataReporter.h; sourceTree = "<group>"; };
+		2DEE36BB2A13D5BB000780E9 /* _ANEQoSMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEQoSMapper.h; sourceTree = "<group>"; };
+		2DEE36BC2A13D5BB000780E9 /* _ANELog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANELog.h; sourceTree = "<group>"; };
+		2DEE36BD2A13D5BB000780E9 /* _ANEPerformanceStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEPerformanceStats.h; sourceTree = "<group>"; };
+		2DEE36BE2A13D5BB000780E9 /* _ANEDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEDeviceController.h; sourceTree = "<group>"; };
+		2DEE36BF2A13D5BB000780E9 /* NSSecureCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSecureCoding.h; sourceTree = "<group>"; };
+		2DEE36C02A13D5BB000780E9 /* _ANEDaemonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEDaemonProtocol.h; sourceTree = "<group>"; };
+		2DEE36C12A13D5BB000780E9 /* _ANEStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEStrings.h; sourceTree = "<group>"; };
+		2DEE36C22A13D5BB000780E9 /* _ANEClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEClient.h; sourceTree = "<group>"; };
+		2DEE36C32A13D5BB000780E9 /* _ANERequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANERequest.h; sourceTree = "<group>"; };
+		2DEE36C42A13D5BB000780E9 /* _ANECloneHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANECloneHelper.h; sourceTree = "<group>"; };
+		2DEE36C52A13D5BB000780E9 /* _ANEErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEErrors.h; sourceTree = "<group>"; };
+		2DEE36C62A13D5BB000780E9 /* _ANEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEModel.h; sourceTree = "<group>"; };
+		2DEE36C72A13D5BB000780E9 /* _ANEHashEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ANEHashEncoding.h; sourceTree = "<group>"; };
+		2DEE36C82A13D5BB000780E9 /* NSCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCopying.h; sourceTree = "<group>"; };
+		2DEE36C92A13D5BB000780E9 /* AppleNeuralEngine-Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppleNeuralEngine-Structs.h"; sourceTree = "<group>"; };
+		2DEE36CA2A13D5BB000780E9 /* IOSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurface.h; sourceTree = "<group>"; };
+		2DEE36CB2A13D5BB000780E9 /* aneProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aneProgram.h; sourceTree = "<group>"; };
+		2DEE36CC2A13D5BB000780E9 /* build_macos.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_macos.sh; sourceTree = "<group>"; };
+		2DEE36CD2A13D5BB000780E9 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		2DEE36CE2A13D5BB000780E9 /* iokit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iokit.h; sourceTree = "<group>"; };
+		2DEE36CF2A13D5BB000780E9 /* IOGPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOGPU.h; sourceTree = "<group>"; };
+		2DEE36D02A13D5BB000780E9 /* IOSurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOSurface.c; sourceTree = "<group>"; };
+		2DEE36D12A13D5BB000780E9 /* ANEDirectIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEDirectIn.h; sourceTree = "<group>"; };
+		2DEE36D22A13D5BB000780E9 /* exploit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exploit.m; sourceTree = "<group>"; };
+		2DEE36DA2A13D739000780E9 /* util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = util.m; sourceTree = "<group>"; };
+		2DEE36DC2A13DA26000780E9 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		2DEE36DE2A13DB28000780E9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2DEE36E02A13DB3F000780E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DEE36E32A13DCCE000780E9 /* _ANEIOSurfaceObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEIOSurfaceObject.h; sourceTree = "<group>"; };
+		2DEE36E42A13DCCE000780E9 /* _ANEDaemonConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEDaemonConnection.h; sourceTree = "<group>"; };
+		2DEE36E52A13DCCE000780E9 /* _ANEDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEDeviceInfo.h; sourceTree = "<group>"; };
+		2DEE36E62A13DCCE000780E9 /* _ANEProgramForEvaluation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEProgramForEvaluation.h; sourceTree = "<group>"; };
+		2DEE36E72A13DCCE000780E9 /* AppleNeuralEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleNeuralEngine.h; sourceTree = "<group>"; };
+		2DEE36E82A13DCCE000780E9 /* _ANEDataReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEDataReporter.h; sourceTree = "<group>"; };
+		2DEE36E92A13DCCE000780E9 /* _ANEQoSMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEQoSMapper.h; sourceTree = "<group>"; };
+		2DEE36EA2A13DCCE000780E9 /* _ANELog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANELog.h; sourceTree = "<group>"; };
+		2DEE36EB2A13DCCE000780E9 /* _ANEPerformanceStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEPerformanceStats.h; sourceTree = "<group>"; };
+		2DEE36EC2A13DCCE000780E9 /* _ANEDeviceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEDeviceController.h; sourceTree = "<group>"; };
+		2DEE36ED2A13DCCE000780E9 /* NSSecureCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSecureCoding.h; sourceTree = "<group>"; };
+		2DEE36EE2A13DCCE000780E9 /* _ANEDaemonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEDaemonProtocol.h; sourceTree = "<group>"; };
+		2DEE36EF2A13DCCE000780E9 /* _ANEStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEStrings.h; sourceTree = "<group>"; };
+		2DEE36F02A13DCCE000780E9 /* _ANEClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEClient.h; sourceTree = "<group>"; };
+		2DEE36F12A13DCCE000780E9 /* _ANERequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANERequest.h; sourceTree = "<group>"; };
+		2DEE36F22A13DCCE000780E9 /* _ANECloneHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANECloneHelper.h; sourceTree = "<group>"; };
+		2DEE36F32A13DCCE000780E9 /* _ANEErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEErrors.h; sourceTree = "<group>"; };
+		2DEE36F42A13DCCE000780E9 /* _ANEModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEModel.h; sourceTree = "<group>"; };
+		2DEE36F52A13DCCE000780E9 /* _ANEHashEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ANEHashEncoding.h; sourceTree = "<group>"; };
+		2DEE36F62A13DCCE000780E9 /* NSCopying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCopying.h; sourceTree = "<group>"; };
+		2DEE36F72A13DCCE000780E9 /* AppleNeuralEngine-Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleNeuralEngine-Structs.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +116,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEE36E12A13DB3F000780E9 /* Foundation.framework in Frameworks */,
+				2DEE36DF2A13DB29000780E9 /* CoreFoundation.framework in Frameworks */,
+				2DEE36AD2A13D366000780E9 /* IOSurface.framework in Frameworks */,
 				2DED125B2A12742300ADEE62 /* IOKit.framework in Frameworks */,
+				2DEE36DD2A13DA26000780E9 /* CoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +147,10 @@
 		2D108FBA2A126BDD00DF4541 /* acceleratortroll */ = {
 			isa = PBXGroup;
 			children = (
+				2D89747E2A13F19D00964CC3 /* mymodel.mlmodel */,
+				2DEE36AF2A13D5BB000780E9 /* meorw */,
+				2DEE36A52A13C729000780E9 /* Info.plist */,
+				2DEE36A42A13C703000780E9 /* acceleratortroll.entitlements */,
 				2D108FBB2A126BDD00DF4541 /* acceleratortrollApp.swift */,
 				2D108FBD2A126BDD00DF4541 /* MainView.swift */,
 				2DED12502A126E5B00ADEE62 /* HomeView.swift */,
@@ -75,7 +160,9 @@
 				2D108FBF2A126BDE00DF4541 /* Assets.xcassets */,
 				2D108FC12A126BDE00DF4541 /* Preview Content */,
 				2DED12562A12738E00ADEE62 /* acceleratortroll-Bridging-Header.h */,
-				2DED125C2A1281E800ADEE62 /* WritePanic.m */,
+				2DEE36A22A13C57C000780E9 /* respring.m */,
+				2DEE36A62A13CBB2000780E9 /* RebootModal.swift */,
+				2DEE36DA2A13D739000780E9 /* util.m */,
 			);
 			path = acceleratortroll;
 			sourceTree = "<group>";
@@ -91,9 +178,92 @@
 		2DED12592A12742300ADEE62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DEE36E22A13DCCE000780E9 /* AppleNeuralEngine */,
+				2DEE36E02A13DB3F000780E9 /* Foundation.framework */,
+				2DEE36DE2A13DB28000780E9 /* CoreFoundation.framework */,
+				2DEE36DC2A13DA26000780E9 /* CoreML.framework */,
+				2DEE36AC2A13D366000780E9 /* IOSurface.framework */,
 				2DED125A2A12742300ADEE62 /* IOKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DEE36AF2A13D5BB000780E9 /* meorw */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE36B02A13D5BB000780E9 /* model_tmp.hwx */,
+				2DEE36B12A13D5BB000780E9 /* IOGPU.c */,
+				2DEE36B22A13D5BB000780E9 /* exploit.h */,
+				2DEE36B32A13D5BB000780E9 /* ANEDirectIn.c */,
+				2DEE36B42A13D5BB000780E9 /* AppleNeuralEngine */,
+				2DEE36CA2A13D5BB000780E9 /* IOSurface.h */,
+				2DEE36CB2A13D5BB000780E9 /* aneProgram.h */,
+				2DEE36CC2A13D5BB000780E9 /* build_macos.sh */,
+				2DEE36CD2A13D5BB000780E9 /* utils.c */,
+				2DEE36CE2A13D5BB000780E9 /* iokit.h */,
+				2DEE36CF2A13D5BB000780E9 /* IOGPU.h */,
+				2DEE36D02A13D5BB000780E9 /* IOSurface.c */,
+				2DEE36D12A13D5BB000780E9 /* ANEDirectIn.h */,
+				2DEE36D22A13D5BB000780E9 /* exploit.m */,
+			);
+			path = meorw;
+			sourceTree = "<group>";
+		};
+		2DEE36B42A13D5BB000780E9 /* AppleNeuralEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE36B52A13D5BB000780E9 /* _ANEIOSurfaceObject.h */,
+				2DEE36B62A13D5BB000780E9 /* _ANEDaemonConnection.h */,
+				2DEE36B72A13D5BB000780E9 /* _ANEDeviceInfo.h */,
+				2DEE36B82A13D5BB000780E9 /* _ANEProgramForEvaluation.h */,
+				2DEE36B92A13D5BB000780E9 /* AppleNeuralEngine.h */,
+				2DEE36BA2A13D5BB000780E9 /* _ANEDataReporter.h */,
+				2DEE36BB2A13D5BB000780E9 /* _ANEQoSMapper.h */,
+				2DEE36BC2A13D5BB000780E9 /* _ANELog.h */,
+				2DEE36BD2A13D5BB000780E9 /* _ANEPerformanceStats.h */,
+				2DEE36BE2A13D5BB000780E9 /* _ANEDeviceController.h */,
+				2DEE36BF2A13D5BB000780E9 /* NSSecureCoding.h */,
+				2DEE36C02A13D5BB000780E9 /* _ANEDaemonProtocol.h */,
+				2DEE36C12A13D5BB000780E9 /* _ANEStrings.h */,
+				2DEE36C22A13D5BB000780E9 /* _ANEClient.h */,
+				2DEE36C32A13D5BB000780E9 /* _ANERequest.h */,
+				2DEE36C42A13D5BB000780E9 /* _ANECloneHelper.h */,
+				2DEE36C52A13D5BB000780E9 /* _ANEErrors.h */,
+				2DEE36C62A13D5BB000780E9 /* _ANEModel.h */,
+				2DEE36C72A13D5BB000780E9 /* _ANEHashEncoding.h */,
+				2DEE36C82A13D5BB000780E9 /* NSCopying.h */,
+				2DEE36C92A13D5BB000780E9 /* AppleNeuralEngine-Structs.h */,
+			);
+			path = AppleNeuralEngine;
+			sourceTree = "<group>";
+		};
+		2DEE36E22A13DCCE000780E9 /* AppleNeuralEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE36E32A13DCCE000780E9 /* _ANEIOSurfaceObject.h */,
+				2DEE36E42A13DCCE000780E9 /* _ANEDaemonConnection.h */,
+				2DEE36E52A13DCCE000780E9 /* _ANEDeviceInfo.h */,
+				2DEE36E62A13DCCE000780E9 /* _ANEProgramForEvaluation.h */,
+				2DEE36E72A13DCCE000780E9 /* AppleNeuralEngine.h */,
+				2DEE36E82A13DCCE000780E9 /* _ANEDataReporter.h */,
+				2DEE36E92A13DCCE000780E9 /* _ANEQoSMapper.h */,
+				2DEE36EA2A13DCCE000780E9 /* _ANELog.h */,
+				2DEE36EB2A13DCCE000780E9 /* _ANEPerformanceStats.h */,
+				2DEE36EC2A13DCCE000780E9 /* _ANEDeviceController.h */,
+				2DEE36ED2A13DCCE000780E9 /* NSSecureCoding.h */,
+				2DEE36EE2A13DCCE000780E9 /* _ANEDaemonProtocol.h */,
+				2DEE36EF2A13DCCE000780E9 /* _ANEStrings.h */,
+				2DEE36F02A13DCCE000780E9 /* _ANEClient.h */,
+				2DEE36F12A13DCCE000780E9 /* _ANERequest.h */,
+				2DEE36F22A13DCCE000780E9 /* _ANECloneHelper.h */,
+				2DEE36F32A13DCCE000780E9 /* _ANEErrors.h */,
+				2DEE36F42A13DCCE000780E9 /* _ANEModel.h */,
+				2DEE36F52A13DCCE000780E9 /* _ANEHashEncoding.h */,
+				2DEE36F62A13DCCE000780E9 /* NSCopying.h */,
+				2DEE36F72A13DCCE000780E9 /* AppleNeuralEngine-Structs.h */,
+			);
+			name = AppleNeuralEngine;
+			path = acceleratortroll/meorw/AppleNeuralEngine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +327,7 @@
 			files = (
 				2D108FC32A126BDE00DF4541 /* Preview Assets.xcassets in Resources */,
 				2D108FC02A126BDE00DF4541 /* Assets.xcassets in Resources */,
+				2DEE36D32A13D5BB000780E9 /* model_tmp.hwx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,12 +339,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DED12582A12738E00ADEE62 /* PoC.m in Sources */,
-				2DED125D2A1281E800ADEE62 /* WritePanic.m in Sources */,
+				2DEE36DB2A13D739000780E9 /* util.m in Sources */,
 				2DED12512A126E5B00ADEE62 /* HomeView.swift in Sources */,
 				2DED12532A126E6200ADEE62 /* ArsenalView.swift in Sources */,
+				2D89747F2A13F19D00964CC3 /* mymodel.mlmodel in Sources */,
 				2D108FBE2A126BDD00DF4541 /* MainView.swift in Sources */,
+				2DEE36D92A13D5BB000780E9 /* exploit.m in Sources */,
+				2DEE36A72A13CBB2000780E9 /* RebootModal.swift in Sources */,
 				2DED12552A126E6700ADEE62 /* InfoView.swift in Sources */,
 				2D108FBC2A126BDD00DF4541 /* acceleratortrollApp.swift in Sources */,
+				2DEE36D82A13D5BB000780E9 /* IOSurface.c in Sources */,
+				2DEE36D42A13D5BB000780E9 /* IOGPU.c in Sources */,
+				2DEE36D72A13D5BB000780E9 /* utils.c in Sources */,
+				2DEE36D52A13D5BB000780E9 /* ANEDirectIn.c in Sources */,
+				2DEE36A32A13C57C000780E9 /* respring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,13 +479,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = acceleratortroll/acceleratortroll.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"acceleratortroll/Preview Content\"";
 				DEVELOPMENT_TEAM = 7D7S7LG33Z;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = acceleratortroll;
+				INFOPLIST_FILE = acceleratortroll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AcceleratorTroll;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,7 +502,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.7;
+				MARKETING_VERSION = 0.1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.jancr.acceleratortroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -338,13 +522,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = acceleratortroll/acceleratortroll.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"acceleratortroll/Preview Content\"";
 				DEVELOPMENT_TEAM = 7D7S7LG33Z;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = acceleratortroll;
+				INFOPLIST_FILE = acceleratortroll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AcceleratorTroll;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -356,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.7;
+				MARKETING_VERSION = 0.1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.jancr.acceleratortroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

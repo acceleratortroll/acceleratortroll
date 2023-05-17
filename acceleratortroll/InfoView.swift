@@ -18,12 +18,12 @@ struct InfoView: View {
         .font(.headline)
       Text("App by Jan")
       Text("Icon by ifram:3")
+      Text("MeoRW exploit by May.")
       Divider()
       
       Text("Credits")
         .font(.headline)
       Text("PoC by Linus Henze")
-      Text("Write Panic by Nick Chan")
       Spacer()
     }.padding()
   }

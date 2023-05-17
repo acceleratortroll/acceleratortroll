@@ -1,10 +1,5 @@
-![logo](acceleratortroll/Assets.xcassets/AppIcon.appiconset/acceleratortroll.png)
-
-# AcceleratorTroll™
-Abusing CVE-2023-28206 to make something useful.
-
-
-[Discord Server](https://discord.gg/tgbgT4SUG9)
+# AcceleratorTroll™ <img src="acceleratortroll/Assets.xcassets/AppIcon.appiconset/acceleratortroll.png" width="140px" style="float: right;">
+Abusing CVE-2023-28206 to make something useful. 
 
 ## Roadmap
 Right now, we are still trying to understand how the vulnerability works and how to exploit it for anything other than panics.
